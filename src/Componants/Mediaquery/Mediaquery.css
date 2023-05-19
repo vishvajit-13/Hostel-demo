@@ -1,0 +1,37 @@
+.main_class {
+    height: 75vh;
+    width: 60%;
+    margin: auto;
+    align-items: center !important;
+    justify-content: center !important;
+}
+@media screen and (min-width:800px) and ( max-width:1200px) {
+    .main_class {
+        background-color: rgb(124, 23, 119) !important;
+        font-size: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:400px) {
+    .main_class {
+        background-color: red !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:600px) {
+    .main_class {
+        background-color: orange !important;
+        font-size: 62px;
+    }
+}
+@media screen and (min-width:600px) and ( max-width:800px) {
+    .main_class {
+        background-color: olivedrab !important;
+        font-size: 32px;
+    }
+}

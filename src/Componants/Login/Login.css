@@ -1,0 +1,25 @@
+.loginForm{
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    justify-content: right;
+    
+}
+.LogMain{
+    background-image: url("/home/csp/bill/react_bill/bill/src/Componants/Login/payment_back.jpg");
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+}
+
+.myform{
+    width: 60%;
+    height: 38vh;
+    padding: 5%;
+    /* margin: auto; */
+
+}
+label{
+    font-size: 24px;
+}
